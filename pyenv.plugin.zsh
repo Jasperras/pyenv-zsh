@@ -1,6 +1,6 @@
 GITHUB="https://github.com"
 
-[[ -z "${PYENV_ROOT}" ]] && export PYENV_HOME="${HOME}/.pyenv"
+[[ -z "${PYENV_ROOT}" ]] && export PYENV_ROOT="${HOME}/.pyenv"
 
 _zsh_pyenv_install() {
     echo "Installing pyenv..."
